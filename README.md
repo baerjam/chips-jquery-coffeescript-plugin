@@ -1,0 +1,1 @@
+# chips-jquery-coffeescript-plugin
