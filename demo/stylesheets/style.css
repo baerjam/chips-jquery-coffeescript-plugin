@@ -1,0 +1,85 @@
+*::after,*::before{box-sizing:inherit}
+
+body {
+  line-height: 1;
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+  font-size: .813em;
+  line-height: 1;
+  margin: 8px;
+}
+header {
+  margin-bottom: 40px;
+}
+
+div.container {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chip {
+  background: #f2f2f2;
+  border-radius: .3rem;
+  color: #666666;
+  display: inline-block;
+  max-width: 100%;
+  padding: .3rem .6rem;
+  margin-right: 5px;
+  text-decoration: none;
+  vertical-align: middle; }
+  .chip:hover, .chip:focus {
+    background: #ededed; }
+  .chip .chip-name {
+    margin-left: 6px; }
+
+.chips {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  box-shadow: none;
+  min-height: 30px;
+  outline: none;
+  transition: all .3s; }
+  .chips.focus {
+    border-bottom: 1px solid #19a9e5;
+    box-shadow: 0 1px 0 0 #19a9e5; }
+  .chips:hover {
+    cursor: text; }
+  .chips input {
+    background: none;
+    border: 0;
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    line-height: 32px;
+    outline: 0;
+    margin: 0;
+    padding: 0 !important;
+    width: 120px !important;
+    box-shadow: none; }
+  .chips input:focus {
+    border: 0 !important;
+    box-shadow: none !important; }
+
+.close {
+  float: right;
+  line-height: 1;
+  color: #484848;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .4;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: .3rem; }
+  .close:hover {
+    color: #484848;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .5; }
+
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none; }
+  button.close:focus {
+    color: inherit; }
