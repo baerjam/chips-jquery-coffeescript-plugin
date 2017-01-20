@@ -16,9 +16,9 @@ do($ = window.jQuery, window) ->
     CLICK: "click#{ EVENT_KEY }",
     FOCUSIN: "focusin#{EVENT_KEY}",
     FOCUSOUT: "focusout#{EVENT_KEY}",
-    KEYDOWN_ADD   : "keydown.add#{ EVENT_KEY }",
-    CHIP_ADD : "chips.add",
-    CHIP_REMOVE : "chips.remove",
+    KEYDOWN_ADD: "keydown.add#{ EVENT_KEY }",
+    CHIP_ADD: "chips.add",
+    CHIP_REMOVE: "chips.remove",
 
   Selectors =
     CHIPS: '.chips',
